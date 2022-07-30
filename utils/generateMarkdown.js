@@ -12,9 +12,14 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-	return `# ${data.title}
-
-`;
+	var userInfo = "";
+	userInfo = `# ${data.title}  
+	`;
+	userInfo += `# ${"Description"} 
+	`;
+	userInfo += `# ${data.description}  
+	`;
+	return userInfo;
 }
 
 module.exports = generateMarkdown;

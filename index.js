@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
-const { writeFile } = require("fs");
+const { writeFile, fstat } = require("fs");
 const { prompt } = require("inquirer");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = () => {
@@ -18,19 +19,19 @@ const questions = () => {
 				}
 			},
 		},
-		// {
-		// 	type: "input",
-		// 	name: "description",
-		// 	message: "Write a description of your Project? (Required)",
-		// 	validate: (titleInput) => {
-		// 		if (titleInput) {
-		// 			return true;
-		// 		} else {
-		// 			console.log("Please type a description of your Project!");
-		// 			return false;
-		// 		}
-		// 	},
-		// },
+		{
+			type: "input",
+			name: "description",
+			message: "Write a description of your Project? (Required)",
+			validate: (titleInput) => {
+				if (titleInput) {
+					return true;
+				} else {
+					console.log("Please type a description of your Project!");
+					return false;
+				}
+			},
+		},
 		// {
 		// 	type: "input",
 		// 	name: "installation",
@@ -126,12 +127,36 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+	return new Promise((resolve, reject) => {
+		//if there's an error, reject and return to the Promise's '.catch()' method
+		writeFile("./dist/" + fileName, data, (err) => {
+			if (err) {
+				reject(err);
+				//return out of function to avoid creating an empty read me
+				return;
+			}
+			console.log("passed error");
+
+			//if promise is good then render with the '.then()' method
+			resolve({
+				ok: true,
+				message: fileName + "README Created!",
+			});
+		});
+	});
+}
 
 // TODO: Create a function to initialize app
 async function init() {
-	await questions();
+	const answers = await questions();
 	console.log("init function");
+	console.log(answers);
+	const fileName = "README.md";
+	const readmeData = generateMarkdown(answers);
+	console.log(readmeData);
+
+	await writeToFile(fileName, readmeData);
 }
 
 // Function call to initialize app
