@@ -94,7 +94,13 @@ const questions = () => {
 			type: "list",
 			name: "license",
 			message: "Which license applies to your application? (Select one)",
-			choices: ["MIT", "ISC", "GNU GPLv3", "Other community license"],
+			choices: [
+				"MIT",
+				"ISC",
+				"GNU GPLv3",
+				"Other community license",
+				"No License",
+			],
 		},
 
 		{
@@ -123,7 +129,13 @@ const questions = () => {
 				}
 			},
 		},
-	]);
+	])
+		.then((answers) => {
+			return answers;
+		})
+		.catch((error) => {
+			console.log(error);
+		});
 };
 
 // TODO: Create a function to write README file

@@ -18,22 +18,51 @@ function generateMarkdown(data) {
 	${data.description}
 
 	## Table of Contents
+	- [Installation](#Installation)
+	- [Usage](#Usage)
+	- [License](#License)
+	- [Contributing](#Contributing)
+	- [Tests](#Tests)
+	- [Questions](#Questions)
 
+	</br>
+	
+	<div id="Installation"></div>
 
-	## Installation
+	## Installation 
 	${data.installation}
+
+	</br>
+
+	<div id="Usage"></div>
 
 	## Usage
 	${data.usage}
 
+	</br>
+
+	<div id="License"></div>
+
 	## License
 	${data.license}
+
+	</br>
+
+	<div id="Contribution"></div>
 
 	## Contributing
 	${data.contributing}
 
+	</br>
+
+	<div id="Tests"></div>
+
 	## Tests
 	${data.tests}
+
+	</br>
+
+	<div id="Questions"></div>
 
 	## Questions
 	See more details at https://www.github.com/${data.gitHub} or contact me at ${data.email}
