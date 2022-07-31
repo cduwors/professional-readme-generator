@@ -32,97 +32,97 @@ const questions = () => {
 				}
 			},
 		},
-		// {
-		// 	type: "input",
-		// 	name: "installation",
-		// 	message:
-		// 		"What are the Installation Instructions for your Project? (Required)",
-		// 	validate: (titleInput) => {
-		// 		if (titleInput) {
-		// 			return true;
-		// 		} else {
-		// 			console.log(
-		// 				"Please type a Installation Directions for your Project!"
-		// 			);
-		// 			return false;
-		// 		}
-		// 	},
-		// },
-		// {
-		// 	type: "input",
-		// 	name: "usage",
-		// 	message: "What is the usage information for your Project? (Required)",
-		// 	validate: (titleInput) => {
-		// 		if (titleInput) {
-		// 			return true;
-		// 		} else {
-		// 			console.log("Please explain the usage information for your Project!");
-		// 			return false;
-		// 		}
-		// 	},
-		// },
-		// {
-		// 	type: "input",
-		// 	name: "contributing",
-		// 	message:
-		// 		"What are the contribution guidelines for your Project? (Required)",
-		// 	validate: (titleInput) => {
-		// 		if (titleInput) {
-		// 			return true;
-		// 		} else {
-		// 			console.log(
-		// 				"Please explain the contribution guidelines for your Project!"
-		// 			);
-		// 			return false;
-		// 		}
-		// 	},
-		// },
-		// {
-		// 	type: "input",
-		// 	name: "tests",
-		// 	message: "What are the test instructions for your Project? (Required)",
-		// 	validate: (titleInput) => {
-		// 		if (titleInput) {
-		// 			return true;
-		// 		} else {
-		// 			console.log("Please enter the test instructions for your Project!");
-		// 			return false;
-		// 		}
-		// 	},
-		// },
-		// {
-		// 	type: "list",
-		// 	name: "license",
-		// 	message: "Which license applies to your application? (Select one)",
-		// 	choices: ["MIT", "ISC", "GNU GPLv3", "Other community license"],
-		// },
+		{
+			type: "input",
+			name: "installation",
+			message:
+				"What are the Installation Instructions for your Project? (Required)",
+			validate: (titleInput) => {
+				if (titleInput) {
+					return true;
+				} else {
+					console.log(
+						"Please type a Installation Directions for your Project!"
+					);
+					return false;
+				}
+			},
+		},
+		{
+			type: "input",
+			name: "usage",
+			message: "What is the usage information for your Project? (Required)",
+			validate: (titleInput) => {
+				if (titleInput) {
+					return true;
+				} else {
+					console.log("Please explain the usage information for your Project!");
+					return false;
+				}
+			},
+		},
+		{
+			type: "input",
+			name: "contributing",
+			message:
+				"What are the contribution guidelines for your Project? (Required)",
+			validate: (titleInput) => {
+				if (titleInput) {
+					return true;
+				} else {
+					console.log(
+						"Please explain the contribution guidelines for your Project!"
+					);
+					return false;
+				}
+			},
+		},
+		{
+			type: "input",
+			name: "tests",
+			message: "What are the test instructions for your Project? (Required)",
+			validate: (titleInput) => {
+				if (titleInput) {
+					return true;
+				} else {
+					console.log("Please enter the test instructions for your Project!");
+					return false;
+				}
+			},
+		},
+		{
+			type: "list",
+			name: "license",
+			message: "Which license applies to your application? (Select one)",
+			choices: ["MIT", "ISC", "GNU GPLv3", "Other community license"],
+		},
 
-		// {
-		// 	type: "input",
-		// 	name: "gitHub",
-		// 	message: "What is your GitHub username? (Required)",
-		// 	validate: (titleInput) => {
-		// 		if (titleInput) {
-		// 			return true;
-		// 		} else {
-		// 			console.log("Please enter your GitHub username!");
-		// 			return false;
-		// 		}
-		// 	},
-		// },
-		// {
-		// 	type: "input",
-		// 	name: "email",
-		// 	message: "What is your email? (Required)",
-		// 	validate: (titleInput) => {
-		// 		if (titleInput) {
-		// 			return true;
-		// 		} else {
-		// 			console.log("Please enter your email!");
-		// 			return false;
-		// 		}
-		// 	},
-		// },
+		{
+			type: "input",
+			name: "gitHub",
+			message: "What is your GitHub username? (Required)",
+			validate: (titleInput) => {
+				if (titleInput) {
+					return true;
+				} else {
+					console.log("Please enter your GitHub username!");
+					return false;
+				}
+			},
+		},
+		{
+			type: "input",
+			name: "email",
+			message: "What is your email? (Required)",
+			validate: (titleInput) => {
+				if (titleInput) {
+					return true;
+				} else {
+					console.log("Please enter your email!");
+					return false;
+				}
+			},
+		},
 	]);
 };
 
