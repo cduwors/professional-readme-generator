@@ -96,7 +96,7 @@ const questions = () => {
 			message: "Which license applies to your application? (Select one)",
 			choices: [
 				"MIT",
-				"ISC",
+				"GNU",
 				"GNU GPLv3",
 				"Other community license",
 				"No License",
@@ -162,11 +162,11 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 async function init() {
 	const answers = await questions();
-	console.log("init function");
-	console.log(answers);
+	// console.log("init function");
+	// console.log(answers);
 	const fileName = "README.md";
 	const readmeData = generateMarkdown(answers);
-	console.log(readmeData);
+	// console.log(readmeData);
 
 	await writeToFile(fileName, readmeData);
 }

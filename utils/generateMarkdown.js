@@ -12,61 +12,43 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-	return `# ${data.title}   
-	
-	## Description
-	${data.description}
+	return `# ${data.title} 
 
-	## Table of Contents
-	- [Installation](#Installation)
-	- [Usage](#Usage)
-	- [License](#License)
-	- [Contributing](#Contributing)
-	- [Tests](#Tests)
-	- [Questions](#Questions)
+## Description
+${data.description}
 
-	</br>
-	
-	<div id="Installation"></div>
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-	## Installation 
-	${data.installation}
 
-	</br>
+## Installation 
+${data.installation}
 
-	<div id="Usage"></div>
 
-	## Usage
-	${data.usage}
+## Usage
+${data.usage}
 
-	</br>
 
-	<div id="License"></div>
+## License
+${data.license}
 
-	## License
-	${data.license}
 
-	</br>
+## Contributing
+${data.contributing}
 
-	<div id="Contribution"></div>
 
-	## Contributing
-	${data.contributing}
+## Tests
+${data.tests}
 
-	</br>
 
-	<div id="Tests"></div>
-
-	## Tests
-	${data.tests}
-
-	</br>
-
-	<div id="Questions"></div>
-
-	## Questions
-	See more details at https://www.github.com/${data.gitHub} or contact me at ${data.email}
-	`;
+## Questions
+See more details at https://www.github.com/${data.gitHub} or contact me at ${data.email}
+`;
 }
 
 module.exports = generateMarkdown;

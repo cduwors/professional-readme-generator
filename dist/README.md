@@ -1,54 +1,36 @@
-# project
+# Project Crazy 
 
-    ## Description
-    description
+## Description
+Insane
 
-    ## Table of Contents
-    - [Installation](#Installation)
-    - [Usage](#Usage)
-    - [License](#License)
-    - [Contributing](#Contributing)
-    - [Tests](#Tests)
-    - [Questions](#Questions)
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-    </br>
 
-    <div id="Installation"></div>
+## Installation 
+install
 
-    ## Installation
-    install here
 
-    </br>
+## Usage
+usage
 
-    <div id="Usage"></div>
 
-    ## Usage
-    user info
+## License
+MIT
 
-    </br>
 
-    <div id="License"></div>
+## Contributing
+contribute
 
-    ## License
-    MIT
 
-    </br>
+## Tests
+test
 
-    <div id="Contribution"></div>
 
-    ## Contributing
-    contribute here
-
-    </br>
-
-    <div id="Tests"></div>
-
-    ## Tests
-    test like htis
-
-    </br>
-
-    <div id="Questions"></div>
-
-    ## Questions
-    See more details at https://www.github.com/cduwors or contact me at cduwors@gmail
+## Questions
+See more details at https://www.github.com/cduwors or contact me at cduwors@mail
