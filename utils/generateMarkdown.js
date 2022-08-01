@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+
 function renderLicenseBadge(license) {
 	let myLicense = license.choices;
 	console.log(license.choices);
@@ -29,7 +30,7 @@ function generateMarkdown(data) {
 	// console.log(data);
 	return `# ${data.title} 
 	
-${myBadge}
+
 
 ## Description
 ${data.description}
