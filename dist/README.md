@@ -1,9 +1,10 @@
-# Project Crazy 
+# No License 
 
-{badge}
+
+
 
 ## Description
-Insane
+abc
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,24 +16,25 @@ Insane
 
 
 ## Installation 
-install
+def
 
 
 ## Usage
-usage
+x
 
 
 ## License
-MIT
+This project is licensed with No License. 
+See License information at N/A.
 
 
 ## Contributing
-contribute
+x
 
 
 ## Tests
-test
+x
 
 
 ## Questions
-See more details at https://www.github.com/cduwors or contact me at cduwors@mail
+See more details at https://www.github.com/cduwors or contact cduwro.

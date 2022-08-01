@@ -94,12 +94,7 @@ const questions = () => {
 			type: "list",
 			name: "license",
 			message: "Which license applies to your application? (Select one)",
-			choices: [
-				"MIT",
-				"GNU GPLv3",
-				"Apache",
-				"No License",
-			],
+			choices: ["MIT", "GNU GPLv3", "Apache", "No License"],
 		},
 
 		{
@@ -147,7 +142,7 @@ function writeToFile(fileName, data) {
 				//return out of function to avoid creating an empty read me
 				return;
 			}
-			console.log("passed error");
+			// console.log("passed error");
 
 			//if promise is good then render with the '.then()' method
 			resolve({
