@@ -96,9 +96,8 @@ const questions = () => {
 			message: "Which license applies to your application? (Select one)",
 			choices: [
 				"MIT",
-				"GNU",
 				"GNU GPLv3",
-				"Other community license",
+				"Apache",
 				"No License",
 			],
 		},

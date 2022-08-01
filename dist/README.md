@@ -1,5 +1,7 @@
 # Project Crazy 
 
+{badge}
+
 ## Description
 Insane
 
