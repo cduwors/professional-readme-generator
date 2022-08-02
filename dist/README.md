@@ -1,10 +1,10 @@
-# No License 
+# My Project README 
 
-
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 
 ## Description
-abc
+Creating a professional README file from the command line 
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,25 +16,24 @@ abc
 
 
 ## Installation 
-def
+Install by...
 
 
 ## Usage
-x
+Usage info...
 
 
 ## License
-This project is licensed with No License. 
-See License information at N/A.
+This project is licensed with GNU GPLv3.  See License Information at https://www.gnu.org/licenses/gpl-3.0
 
 
 ## Contributing
-x
+You may contribute by...
 
 
 ## Tests
-x
+test this app by...
 
 
 ## Questions
-See more details at https://www.github.com/cduwors or contact cduwro.
+See more details at https://www.github.com/cduwors or contact cduwors@gmail.com.
