@@ -46,4 +46,4 @@ Input Sample
 
 Output Sample
 
-<img src= "./img/README sample.png"/>
+<img src= "./img/README Sample.png"/>
