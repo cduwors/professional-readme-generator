@@ -1,10 +1,10 @@
-# My Project README 
+# My README Generator 
 
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
 ## Description
-Creating a professional README file from the command line 
+This project creates a professional README from user input to the command line
 
 ## Table of Contents
 - [Installation](#installation)
@@ -16,24 +16,24 @@ Creating a professional README file from the command line
 
 
 ## Installation 
-Install by...
+Download code from Git
 
 
 ## Usage
-Usage info...
+Create a quick and easy README for each of your projects and then flesh it out with details later
 
 
 ## License
-This project is licensed with GNU GPLv3.  See License Information at https://www.gnu.org/licenses/gpl-3.0
+This project is licensed with MIT.  See License Information at https://opensource.org/licenses/MIT
 
 
 ## Contributing
-You may contribute by...
+Contact me to collaborate
 
 
 ## Tests
-test this app by...
+N/A
 
 
 ## Questions
-See more details at https://www.github.com/cduwors or contact cduwors@gmail.com.
+See more details at https://www.github.com/cduwors or contact cduwors@mail.com.
