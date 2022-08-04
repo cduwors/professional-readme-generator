@@ -11,6 +11,7 @@ This is a command line app that creates a professional README.md from user input
 - [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
+- [Images](#images)
 
 ## Installation
 
@@ -34,3 +35,13 @@ You can contribute to this project by either:
 ## Questions
 
 See more details at https://www.github.com/cduwors or contact cduwors@mail.com.
+
+GitHub Repository: https://github.com/cduwors/professional-readme-generator
+
+## Images
+
+Input Sample
+<img src= "./img/README Input view.png"/>
+
+Output Sample
+<img src= "./img/README sample.png"/>

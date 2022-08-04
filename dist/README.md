@@ -14,7 +14,6 @@ This project creates a professional README from user input to the command line
 - [Tests](#tests)
 - [Questions](#questions)
 
-
 ## Installation 
 Download code from Git
 
