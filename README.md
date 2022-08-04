@@ -41,7 +41,9 @@ GitHub Repository: https://github.com/cduwors/professional-readme-generator
 ## Images
 
 Input Sample
+
 <img src= "./img/README Input view.png"/>
 
 Output Sample
+
 <img src= "./img/README sample.png"/>

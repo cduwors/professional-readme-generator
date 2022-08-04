@@ -1,10 +1,10 @@
-# My README Generator 
+# Professional ReadME Generator 
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
 ## Description
-This project creates a professional README from user input to the command line
+Create a README.md from your command line
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,12 +14,13 @@ This project creates a professional README from user input to the command line
 - [Tests](#tests)
 - [Questions](#questions)
 
+
 ## Installation 
-Download code from Git
+Download code  from git
 
 
 ## Usage
-Create a quick and easy README for each of your projects and then flesh it out with details later
+Create a simple README and then augment later if desired
 
 
 ## License
@@ -27,7 +28,7 @@ This project is licensed with MIT.  See License Information at https://opensourc
 
 
 ## Contributing
-Contact me to collaborate
+Happy to collaborate - contact me
 
 
 ## Tests
